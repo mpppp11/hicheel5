@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0066ff;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 15px;
+}
+
+nav ul li a.signin {
+  background: red;
+  color: white;
+}
+.sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+}
+.sidebar-text {
+  max-width: 50%;
+}
+
+.sidebar-text p {
+  margin-bottom: 15px;
+}
+.sidebar-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: white;
+}
+
+.search {
+  margin-top: 20px;
+  display: flex;
+}
+
+.search input {
+  padding: 12px;
+  border: none;
+  border-radius: 30px 0 0 30px;
+  width: 250px;
+}
+.search button {
+  padding: 12px 20px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 0 30px 30px 0;
+}
+.sidebar-image img {
+  width: 300px;
+  border-radius: 15px;
+  height: 350px;
+}
+.tag {
+  background: blue;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 50px;
+}
+
+.discount {
+  background: red;
+  padding: 12px;
+  border-radius: 50%;
+  font-weight: bold;
+  width: 70px;
+}
